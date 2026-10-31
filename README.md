@@ -2,6 +2,10 @@
 
 A student project for finding and recommending academic books using **TF-IDF** and **cosine similarity**. The application combines content-based search with a Flask web interface and an optional AI chatbot.
 
+## Project Presentation
+
+[View Al-Warraq Project Presentation](docs/Al-Warraq-Presentation.pdf)
+
 ## Project highlights
 
 - **Recommendation and search:** TF-IDF vectorization, cosine similarity, query preprocessing, and book ranking.
