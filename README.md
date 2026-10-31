@@ -4,7 +4,7 @@ A student project for finding and recommending academic books using **TF-IDF** a
 
 ## Project Presentation
 
-[View Al-Warraq Project Presentation](docs/Al-Warraq-Presentation.pdf)
+[View Al-Warraq Project Presentation](docs/Al_Warraq_Full_Project_Presentation.pdf)
 
 ## Project highlights
 
