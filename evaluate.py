@@ -10,7 +10,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from app import TFIDFRecommender, preprocess_user_query, ABBREVIATIONS_MAP
 
 # Settings
-DATASET_PATH = r"C:\Users\mobil\Desktop\‏‏Al warraq\dataset\AlWarraq_Final_Version.csv"
+from pathlib import Path
+
+DATASET_PATH = Path(__file__).resolve().parent / "dataset" / "AlWarraq_Final_Version.csv"
 TARGET_AUTO_SIZE = 300
 TOP_K            = 12
 RANDOM_SEED      = 41
