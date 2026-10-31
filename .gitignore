@@ -1,0 +1,28 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases, Flask session files, generated models
+instance/
+*.db
+*.sqlite*
+flask_sessions/
+models/*.pkl
+
+# Original datasets - verify licensing before publishing
+dataset/*.csv
+
+# Git internal data, editor files, and OS artifacts
+.git/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
